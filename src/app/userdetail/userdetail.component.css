@@ -1,0 +1,15 @@
+.heading{
+    color:black;
+    text-align: left;
+    text-decoration: none;
+    padding: 2px 0 2px 0;
+}
+.userdetails{
+    border-width: 0px;
+    border-style: groove;
+    border-color:whitesmoke;
+    height:fit-content;
+    width: fit-content;
+    background-color:white;
+    padding: 0 0 0 0;
+}

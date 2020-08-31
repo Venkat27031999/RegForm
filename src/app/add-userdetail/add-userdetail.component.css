@@ -1,0 +1,27 @@
+label{
+    text-align: center;
+}
+input{
+    width: 560px;
+}
+.form-col-8{
+  width: 700px;
+ 
+}
+.button-color{
+    background-color:blue;
+}
+.container{
+    border-width: 0px;
+    border-style: groove;
+    height:fit-content;
+    width: fit-content;
+    background-color:whitesmoke;
+    padding: 0 0 10px 0;
+}
+@media screen and (max-width: 600px) {
+    .form-col-8 {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

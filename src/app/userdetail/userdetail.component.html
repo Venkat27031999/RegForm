@@ -1,0 +1,25 @@
+<div class="userdetail">  
+  <h5 class="heading">Registered Users</h5>
+    <table class="table table-bordered">
+    <thead style="background-color: lightblue;font-style: normals;" >
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody style="background-color: whitesmoke;">
+      <tr *ngFor="let userdet of userdetails">
+        <td>{{userdet.username}}</td>
+        <td>{{userdet.email}}</td>
+        <td>{{userdet.password}}</td>
+        <td>
+          <button class="btn btn-primary" style="color: blue;" (click)="editUserDetail(userdet)"><small style="color: white;">Edit &nbsp;</small></button>
+        
+          <button class="btn btn-danger ml-2 " (click)="deleteUserDetail(userdet) "><small>Delete</small></button>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+  </div>

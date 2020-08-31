@@ -1,0 +1,24 @@
+.heading{
+    color: darkblue;
+    text-align: center;
+    text-decoration: cyan;
+    font-style:bold;
+    padding: 5px 0 0 0;
+}
+.container{
+    border-width: 0px;
+    border-style: groove;
+    border-color:whitesmoke;
+    height:fit-content;
+    width:fit-content;
+    background-color:white;
+    padding: 0 0 0 0;
+    border-width: 0px;
+}
+.container div{
+    color: blue;
+    text-align:right;
+}
+.container div:hover{
+   cursor: pointer;
+}
